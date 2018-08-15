@@ -1,0 +1,12 @@
+@charset "UTF-8";
+$width: 100%;
+body {
+  width: $width;
+  height: 100px;
+  header {
+    width: 100px;
+  }
+  &:after {
+    content: '我是一个好人';
+  }
+}
